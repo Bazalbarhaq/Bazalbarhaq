@@ -1,0 +1,9 @@
+#Salary of an employee
+bs=10000
+print("If basic salary is",bs)
+DA=(80/100)*bs
+HRA=(20/100)*bs
+print("Dearness allowance is 80%")
+print("Housing expenses is 20% ,then")
+TS=bs+DA+HRA
+print("Total salary is:",TS)
