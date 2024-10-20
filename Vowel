@@ -1,4 +1,4 @@
-#If a character is an alphabet or a vowel
+#If a character is an consant or a vowel
 c=input("Enter any character: ")
 
 if (c=='a' or c=='e' or c=='i' or c=='o' or c=='u') :
