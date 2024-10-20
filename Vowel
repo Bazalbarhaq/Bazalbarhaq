@@ -1,7 +1,7 @@
 #If a character is an consant or a vowel
 c=input("Enter any character: ")
 
-if (c=='a' or c=='e' or c=='i' or c=='o' or c=='u') :
+if (c=='a' or c=='e' or c=='i' or c=='o' or c=='u'or c=='A' or c=='E' or c=='I' or c=='O' or c=='U') :
     print(c,"is a vowel.")
 elif (c >= "a" and c <="z" or c >= "A" and c <="Z") :
     print(c,"is a consonant.")
