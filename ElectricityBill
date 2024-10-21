@@ -1,18 +1,17 @@
-#Calculate net electricity bill
-unit=int(input("Enter units consumed:"))
+#Program to Calculate Electricity Bill
 
-if (unit <= 150) :
-    amount=unit*0.5
-    print("Amount to be paid is",amount)
-elif (unit <= 150):
-    amount = (50*0.5) + ((unit-50)*0.75)
-    print('Amount to be paid is:',amount)
+amt=int(input("Enter Total Unit Consumed: "))
 
-elif (unit <= 250) :
-    amoumt = (50*0.5) + (100*0.75) + ((unit-150)*1.20)
-    print('Amount to be paid is:', amount)
-else:
-    amount = (50*0.5) + (100*0.75) + (100*1.2) + ((unit-250)*1.50)
-    surcharge = amount*0.20
-    total_amt = amount+surcharge
-    print('Amount to be paid is:',total_amt)
+total=surcharge=amt=0
+
+if unit<=50: amt=unit*0.50 elif unit<=150: amt=25+(unit-50)*0.75 elif unit<=250: amt=100+(unit-150)*1.20
+
+else
+
+amt=220+(unit-250)*1.50
+
+surcharge=amt*20/100
+
+total=amt+surcharge
+
+print("Total Electricity Bill of Rs", total)
